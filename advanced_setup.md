@@ -16,9 +16,9 @@ In **Step 4** of **Basic Setup** We setup with:
 <br>
 But now in **Advanced Setup**, replace `start_role` with **@\<Start Role>** selected above and `stop_role` with **@\<Stop Role>**
 
-In **Step 5** of **Basic Setup**, We go to ***[Server Settings > Intergration > Custom Role Bot]*** to modify what role can use `/cr_create` command.
+In **Step 5** of **Basic Setup**, We go to ***[Server Settings > Intergration > Custom Role Bot]*** to modify what role can use `/cr_create` command and not modify other command. Now the selected role can use `/cr_create`
 <br>
-By default, everyone can use `/cr_edit` command (they can't create new but can edit existing. EX: server booster after lost the booster role can still edit their role that created earlier). You can modify `/cr_edit` command sync with `/cr_create`.
+By default, everyone can use `/cr_edit` command (they can't create new but can edit existing. EX: server booster after lost the booster role can still edit their role that created earlier). You can modify `/cr_edit` command sync with `/cr_create` to make who can create also can edit but everyone cannot edit
 
 ## Example for Advanced setup
 If a server role list look like this:
